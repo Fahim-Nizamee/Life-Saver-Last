@@ -1,0 +1,24 @@
+.get_location_btn{
+   border:rgb(138, 2, 2) 1px solid;
+   color: rgb(138, 2, 2);
+   background-color: white;
+   padding: 1.2%;
+   border-radius: 5px;
+    
+}
+.get_location_btn:hover{
+    background-color:rgb(138, 2, 2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+  
+}
+
+.get_location_btn:active{
+    background-color: rgb(0, 0, 0);
+   
+    transition: 0.5s;   
+}
+
+#submit-btn{
+    padding: 0.7%;
+}
