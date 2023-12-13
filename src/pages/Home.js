@@ -141,7 +141,7 @@ export default function Home() {
             <div className='write'>
               <img className='user' src={user} alt="" />
               <textarea type="text" id="text1" class="form-control inp " placeholder="Write your post . . . " name='text' maxLength={200} onKeyUp={setHeight} onKeyDown={setHeight} onChange={(e) => { setPostDescription(e.target.value) }} />
-              <button className='btn btn-post' href='#' onClick={upload}><img className='post' src={postL} alt="" /></button>
+              <button className='post btn btn-post' href='#' onClick={upload}><i class=" fa-solid fa-paper-plane"></i></button>
             </div >
             <hr />
             <div className='select-info'>

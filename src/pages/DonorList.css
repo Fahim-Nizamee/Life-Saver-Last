@@ -31,6 +31,22 @@
     justify-content: center;
     align-items: center;
 }
-.sort select{
+
+
+@media screen and (max-width:990px) {
+
     
-}
+    .list-container{
+        display: flex;
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        /* justify-content: center; */
+    
+        padding-bottom: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    
+  }

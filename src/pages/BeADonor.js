@@ -166,7 +166,9 @@ export default function BeADonor() {
     <div>
       <Header />
       <Navbar />
-      <h1 className='text-center'>Be a donor!</h1>
+      <br></br>
+      <h1 className='text-center' style={{color:" rgb(138, 2, 2)"}}>Be a donor!</h1>
+      <br></br>
       <div className='form-control py-2  container'>
 
 

@@ -63,10 +63,10 @@ export default function AdminNavbar() {
               <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="navbar-nav text-center">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <Link class="nav-link active" aria-current="page" to={'/admin-home'}>Home</Link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#" onClick={ggs} >Do something</a>
+                    <Link class="nav-link" aria-current="page" to={"/ads-edit"} onClick={ggs} >Edit Ads</Link>
                   </li>
                   <li class="nav-item">
                     <div  aria-current="page" href="#" >{

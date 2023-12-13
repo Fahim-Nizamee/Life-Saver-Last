@@ -12,6 +12,9 @@ import AdminHome from './adminPages/AdminHome';
 import DonorList from './pages/DonorList';
 import BeADonor from './pages/BeADonor';
 import LiveMap from './pages/LiveMap';
+import AboutUs from './pages/AboutUs';
+import Privacypolicy from './pages/Privacypolicy';
+import Ads from './adminPages/Ads';
 
 
 
@@ -26,10 +29,13 @@ function App() {
         <Route path='/donor-list' element={<DonorList/>}> </Route>
         <Route path='/be-a-donor' element={<BeADonor/>}> </Route>
         <Route path='/live-map' element={<LiveMap/>}> </Route>
+        <Route path='/about-us' element={<AboutUs/>}> </Route>
+        <Route path='/privacy-policy' element={<Privacypolicy/>}> </Route>
 
 
         <Route path='/admin' element={<AdminSignIn/>}> </Route>
         <Route path='/admin-home' element={<AdminHome/>}> </Route>
+        <Route path='/ads-edit' element={<Ads/>}> </Route>
 
         </Routes>
       </div>
